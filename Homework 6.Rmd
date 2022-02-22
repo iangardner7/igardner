@@ -1,0 +1,13 @@
+---
+title: "Homework 6"
+author: "Ian"
+date: "2/22/2022"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
